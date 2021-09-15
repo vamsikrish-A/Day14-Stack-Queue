@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 import java.util.Stack;
 
-public class StackQueue {
+public class StackMethod {
     /*
     @author: Vamsi Krishna A
 
