@@ -23,6 +23,18 @@ public class StackQueue {
         //print element to stack
         System.out.println("Stack Elements: "+st);
 
+        //Access element from the top of the stack
+        int element = st.peek();
+        System.out.println("Element At Top: "+element);
+
+        //checking Stack empty or not
+        boolean result = st.empty();
+        while (true) {
+            //popping element from the stack
+            st.pop();
+            System.out.println("Stack after Popping: "+st);
+        }
+
 
     }
 }
