@@ -35,6 +35,5 @@ public class StackMethod {
             System.out.println("Stack after Popping: "+st);
         }
 
-
     }
 }
