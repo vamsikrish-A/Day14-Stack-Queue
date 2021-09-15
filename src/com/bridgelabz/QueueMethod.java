@@ -1,5 +1,7 @@
 package com.bridgelabz;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.PriorityQueue;
 
 public class QueueMethod {
@@ -8,7 +10,7 @@ public class QueueMethod {
     * @purpose: Stack and Queue
     * @date:13/09/2019
     * */
-    public static void main(String[] args) {
+    public void queueMethod() {
         //Creating priority Queue
         PriorityQueue<Integer> queue = new PriorityQueue<>();
 
@@ -18,5 +20,21 @@ public class QueueMethod {
         queue.add(70);
 
         System.out.println("Queue elements: "+queue);
+    }
+    public void dequeueMethod() {
+        //creating dequeue
+        Deque<Integer> deque = new ArrayDeque<>();
+        //adding elements to deque
+        deque.add(56);
+        deque.add(30);
+        deque.add(70);
+
+        System.out.println("Deque elements:"+deque);
+    }
+
+    public static void main(String[] args) {
+        QueueMethod obj = new QueueMethod();
+        obj.queueMethod();
+        obj.dequeueMethod();
     }
 }
